@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Colors – TreePeople</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/styles.css">
+    
+    <style type="text/css">
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      .palette {
+        display: grid;
+        grid-gap: 2vw;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin-bottom: var(--spacing-x-large);
+      }
+
+      .swatch {
+        align-items: center;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-areas:
+          "swatch"
+          "values";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin: var(--spacing-x-large);
+      }
+
+      .swatch:last-child {
+        border-bottom: 0;
+      }
+
+      .swatch > div:first-child {
+        grid-area: swatch;
+        height: 100px;
+        justify-self: left;
+        width: 100px;
+        border-radius: var(--border-radius-circle);
+        border: var(--border-thick);
+      }
+
+      .swatch div:last-child {
+        font-size: var(--font-size-x-small);
+        grid-area: values;
+        height: 100px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header role="banner">
+      <h1><a href="/index.html">TreePeople</a></h1>
+      <h2>Color Palette</h2>
+     
+    </header>
+    <main>
+
+      <section class="palette">
+        <div class="swatch">
+          <div style="background: var(--orange-darkest);"></div>
+          <div>
+            <h3>Orange Darkest</h3>
+            <p><b>Hex: </b>#f57f39<br>
+              <b>Token:</b> --orange-darkest</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--orange-darker);"></div>
+          <div>
+            <h3>Orange Darker</h3>
+            <p><b>Hex: </b>#f99a5e<br>
+            
+              <b>Token:</b> --orange-darker</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--orange);"></div>
+          <div>
+            <h3>Orange</h3>
+            <p><b>Hex: </b>#fdb681<br>
+              <b>Token:</b> --orange</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--orange-lighter);"></div>
+          <div>
+            <h3>Orange Lighter</h3>
+            <p><b>Hex: </b>#ffd1a3<br>
+            
+              <b>Token:</b> --orange-lighter</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--orange-lightest);"></div>
+          <div>
+            <h3>Orange Lightest</h3>
+            <p><b>Hex: </b>#ffebc4<br>
+             
+              <b>Token:</b> --orange-lightest</p>
+          </div>
+        </div>
+
+
+        <div class="swatch">
+          <div style="background: var(--yellow-darkest);"></div>
+          <div>
+            <h3>Yellow Darkest</h3>
+            <p><b>Hex: </b>#efcc33<br>
+             
+              <b>Token:</b> --yellow-darkest</p>
+
+          </div>
+        </div>
+        
+        <div class="swatch">
+          <div style="background: var(--yellow-darker);"></div>
+          <div>
+            <h3>Yellow Darker</h3>
+            <p><b>Hex: </b>#f4d860<br>
+             
+              <br>
+              <b>Token:</b> --yellow-darker</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--yellow);"></div>
+          <div>
+            <h3>Yellow</h3>
+            <p><b>Hex: </b>#f7e485<br>
+              
+              <b>Token:</b> --yellow</p>
+
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--yellow-lighter);"></div>
+          <div>
+            <h3>Yellow</h3>
+            <p><b>Hex: </b>#fbf0a9<br>
+              
+              <b>Token:</b> --yellow-lighter</p>
+
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--yellow-lightest);"></div>
+          <div>
+            <h3>Yellow</h3>
+            <p><b>Hex: </b>#fffccb<br>
+            
+              <b>Token:</b> --yellow-lightest</p>
+
+          </div>
+        </div>
+
+
+
+        <div class="swatch">
+          <div style="background: var(--green-darkest);"></div>
+          <div>
+            <h3>Green Darkest</h3>
+            <p><b>Hex: </b>#048f37<br>
+              <b>Token:</b> --green-darkest</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--green-darker);"></div>
+          <div>
+            <h3>Green Darker</h3>
+            <p><b>Hex: </b>#43a75a<br>
+            
+              <b>Token:</b> --green-darker</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--green);"></div>
+          <div>
+            <h3>Green</h3>
+            <p><b>Hex: </b>#6ac07c<br>
+              <b>Token:</b> --green</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--green-lighter);"></div>
+          <div>
+            <h3>Green Lighter</h3>
+            <p><b>Hex: </b>#8fd79d<br>
+            
+              <b>Token:</b> --green-lighter</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--green-lightest);"></div>
+          <div>
+            <h3>Green Lightest</h3>
+            <p><b>Hex: </b>#b2f0be<br>
+             
+              <b>Token:</b> --green-lightest</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--white-darkest);">
+          </div>
+          <div>
+            <h3>White Darkest</h3>
+            <p><b>Hex: </b>#e7e2c2<br>
+           
+              <b>Token:</b> --white-darkest</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--white-darker);"></div>
+          <div>
+            <h3>White Darker</h3>
+            <p><b>Hex: </b>#ede9cf<br>
+           
+              <b>Token:</b> --white-darker</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--white);"></div>
+          <div>
+            <h3>White</h3>
+            <p><b>Hex: </b>#f2f0de<br>
+            
+              <b>Token:</b> --black-20</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--white-lighter);"></div>
+          <div>
+            <h3>White Lighter</h3>
+            <p><b>Hex: </b>#f8f7ed<br>
+             
+              <b>Token:</b> --white-lighter</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--white-lightest);"></div>
+          <div>
+            <h3>White Lightest</h3>
+            <p><b>Hex: </b>#fefefb<br>
+             
+              <b>Token:</b> --white-lightest</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--black-darkest);"></div>
+          <div>
+            <h3>Black Darkest</h3>
+            <p><b>Hex: </b>#060702<br>
+            
+              <b>Token:</b> --black-darkest</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--black-darker);"></div>
+          <div>
+            <h3>Black Darker</h3>
+            <p><b>Hex: </b>#161809<br>
+            
+              <b>Token:</b> --black-darker</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--black);"></div>
+          <div>
+            <h3>Black</h3>
+            <p><b>Hex: </b>#272912<br>
+             
+              <b>Token:</b> --black</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--black-lighter);"></div>
+          <div>
+            <h3>Black Lighter</h3>
+            <p><b>Hex: </b>#383a1b<br>
+          
+              <b>Token:</b> --black-lighter</p>
+          </div>
+        </div>
+
+        <div class="swatch">
+          <div style="background: var(--black-lightest);"></div>
+          <div>
+            <h3>Black Lightest</h3>
+            <p><b>Hex: </b>#474b23<br>
+            
+              <b>Token:</b> --black-lightest</p>
+          </div>
+        </div>
+      </section>
+     <hr>
+      <h2>California Oak Tree</h2>
+      <section class="palette">
+        
+        <div class="swatch">
+          <div style="background: var(--California-Oak-Tree-1);"></div>
+          <div>
+            <h3>1</h3>
+            <p><b>Hex: </b>#D2D904<br>
+             
+              <b>Token:</b> --California-Oak-Tree-1</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--California-Oak-Tree-2);"></div>
+          <div>
+            <h3>2</h3>
+            
+            <p><b>Hex:</b> #92B4AA<br>
+             
+              <b>Token:</b> --California-Oak-Tree-2</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--California-Oak-Tree-3);"></div>
+          <div>
+            <h3>3</h3>
+            <p><b>Hex:</b> #594711<br>
+             
+              <b>Token:</b> --California-Oak-Tree-3</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--California-Oak-Tree-4);"></div>
+          <div>
+            <h3>4</h3>
+         
+            <p><b>Hex: </b>#3A322E<br>
+            
+              <b>Token:</b> --California-Oak-Tree-4</p>
+
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--California-Oak-Tree-5);"></div>
+          <div>
+            <h3>5</h3>
+            
+            <p><b>Hex: </b>#F2F2F2<br>
+             
+              <b>Token:</b> --California-Oak-Tree-5</p>
+          </div>
+        </div>
+       
+
+      </section>
+      <hr>
+      <h2>Red Wood Trees</h2>
+      <section class="palette">
+        
+        <div class="swatch">
+          <div style="background: var(--Red-Wood-Tree-1);"></div>
+          <div>
+            <h3>1</h3>
+            <p><b>Hex: </b>#F28B50<br>
+             
+              <b>Token:</b> --Red-Wood-Tree-1</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--Red-Wood-Tree-2);"></div>
+          <div>
+            <h3>2</h3>
+            <p><b>Hex:</b> #D95829<br>
+           
+              <b>Token:</b> --Red-Wood-Tree-2</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--Red-Wood-Tree-3);"></div>
+          <div>
+            <h3>3</h3>
+            <p><b>Hex:</b> #8C2711<br>
+            
+              <b>Token:</b> --Red-Wood-Tree-3</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--Red-Wood-Tree-4);"></div>
+          <div>
+            <h3>4</h3>
+            <p><b>Hex: </b>#591C0E<br>
+             
+              <b>Token:</b> --Red-Wood-Tree-4</p>
+
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--Red-Wood-Tree-5);"></div>
+          <div>
+            <h3>5</h3>
+            <p><b>Hex: </b>#260F0A<br>
+             
+              <b>Token:</b> --Red-Wood-Tree-5</p>
+          </div>
+        </div>
+        
+
+      </section>
+      <hr>
+      <h2>Venice Park Oak Tree</h2>
+      
+      <section class="palette">
+        
+        <div class="swatch">
+          <div style="background: var(--Park-oak-tree-1);"></div>
+          <div>
+            <h3>1</h3>
+            <p><b>Hex: </b>#84B4FC<br>
+             
+              <b>Token:</b> --Park-oak-tree-1</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--Park-oak-tree-2);"></div>
+          <div>
+            <h3>2</h3>
+            <p><b>Hex:</b> #E8DDD3<br>
+             
+              <b>Token:</b> --Park-oak-tree-2</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--Park-oak-tree-3);"></div>
+          <div>
+            <h3>3</h3>
+            <p><b>Hex:</b> #272915<br>
+            
+              <b>Token:</b> --Park-oak-tree-3</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--Park-oak-tree-4);"></div>
+          <div>
+            <h3>4</h3>
+            <p><b>Hex: </b>#A9B065<br>
+             
+              <b>Token:</b> --Park-oak-tree-4</p>
+
+          </div>
+        </div>
+        <div class="swatch">
+          <div style="background: var(--Park-oak-tree-5);"></div>
+          <div>
+            <h3>5</h3>
+            <p><b>Hex: </b>#5C4C3B<br>
+              <b>Token:</b> --Park-oak-tree-5</p>
+          </div>
+        </div>
+        
+
+      </section>
+     
+
+
+
+    </main>
+
+
+  </body>
+
+</html>

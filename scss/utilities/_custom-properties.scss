@@ -1,0 +1,196 @@
+:root {
+
+
+
+--orange-darkest: #f57f39;
+--orange-darker: #f99a5e;
+--orange: #fdb681;
+--orange-lighter: #ffd1a3;
+--orange-lightest: #ffebc4;
+
+--yellow-darkest: #efcc33;
+--yellow-darker: #f4d860;
+--yellow: #f7e485;
+--yellow-lighter: #fbf0a9;
+--yellow-lightest: #fffccb;
+
+--green-darkest: #048f37;
+--green-darker: #43a75a;
+--green: #6ac07c;
+--green-lighter: #8fd79d;
+--green-lightest: #b2f0be;
+
+--white-darkest: #e7e2c2;
+--white-darker: #ede9cf;
+--white: #f2f0de;
+--white-lighter: #f8f7ed;
+--white-lightest: #fefefb;
+
+--black-darkest: #060702;
+--black-darker: #161809;
+--black: #272912;
+--black-lighter: #383a1b;
+--black-lightest: #474b23;
+
+  /* Color Theme Swatches in Hex */
+  --Park-oak-tree-1: #84B4FC;
+  --Park-oak-tree-2: #E8DDD3;
+  --Park-oak-tree-3: #272915;
+  --Park-oak-tree-4: #A9B065;
+  --Park-oak-tree-5: #5C4C3B;
+
+  /* Color Theme Swatches in RGBA */
+  --Park-oak-tree-rgba: rgba(132,180,252, 1);
+  --Park-oak-tree-2-rgba: rgba(232,221,211, 1);
+  --Park-oak-tree-3-rgba: rgba(39,41,21, 1);
+  --Park-oak-tree-4-rgba: rgba(169,176,101, 1);
+  --Park-oak-tree-5-rgba: rgba(92,76,59, 1);
+
+  /* Color Theme Swatches in HSLA */
+  --Park-oak-tree-1-hsla: hsla(216, 95, 75, 1);
+  --Park-oak-tree-2-hsla: hsla(28, 31, 86, 1);
+  --Park-oak-tree-3-hsla: hsla(66, 32, 12, 1);
+  --Park-oak-tree-4-hsla: hsla(65, 32, 54, 1);
+  --Park-oak-tree-5-hsla: hsla(30, 21, 29, 1);
+
+  /* Color Theme Swatches in Hex */
+  --California-Oak-Tree-1: #D2D904;
+  --California-Oak-Tree-2: #92B4AA;
+  --California-Oak-Tree-3: #594711;
+  --California-Oak-Tree-4: #3A322E;
+  --California-Oak-Tree-5: #F2F2F2;
+
+  /* Color Theme Swatches in RGBA */
+  --California-Oak-Tree-1-rgba: rgba(210,217,4, 1);
+  --California-Oak-Tree-2-rgba: rgba(146,180,170, 1);
+  --California-Oak-Tree-3-rgba: rgba(89,71,17, 1);
+  --California-Oak-Tree-4-rgba: rgba(58,50,46, 1);
+  --California-Oak-Tree-5-rgba: rgba(242,242,242, 1);
+
+  /* Color Theme Swatches in HSLA */
+  --California-Oak-Tree-1-hsla: hsla(61, 96, 43, 1);
+  --California-Oak-Tree-2-hsla: hsla(162, 18, 63, 1);
+  --California-Oak-Tree-3-hsla: hsla(45, 67, 20, 1);
+  --California-Oak-Tree-4-hsla: hsla(20, 11, 20, 1);
+  --California-Oak-Tree-5-hsla: hsla(0, 0, 94, 1);
+
+  /* Color Theme Swatches in Hex */
+  --Red-Wood-Tree-1: #F28B50;
+  --Red-Wood-Tree-2: #D95829;
+  --Red-Wood-Tree-3: #8C2711;
+  --Red-Wood-Tree-4: #591C0E;
+  --Red-Wood-Tree-5: #260F0A;
+
+  /* Color Theme Swatches in RGBA */
+  --Red-Wood-Tree-1-rgba: rgba(242,139,80, 1);
+  --Red-Wood-Tree-2-rgba: rgba(217,88,41, 1);
+  --Red-Wood-Tree-3-rgba: rgba(140,39,17, 1);
+  --Red-Wood-Tree-4-rgba: rgba(89,28,14, 1);
+  --Red-Wood-Tree-5-rgba: rgba(38,15,10, 1);
+
+  /* Color Theme Swatches in HSLA */
+  --Red-Wood-Tree-1-hsla: hsla(21, 86, 63, 1);
+  --Red-Wood-Tree-2-hsla: hsla(16, 69, 50, 1);
+  --Red-Wood-Tree-3-hsla: hsla(10, 78, 30, 1);
+  --Red-Wood-Tree-4-hsla: hsla(11, 72, 20, 1);
+  --Red-Wood-Tree-5-hsla: hsla(10, 58, 9, 1);
+
+  --black-100: #000;
+  --black-90: #1a1a1a;
+  --black-80: #333;
+  --black-70: #4d4d4d;
+  --black-60: #666;
+  --black-50: #808080;
+  --black-40: #999;
+  --black-30: #b3b3b3;
+  --black-20: #ccc;
+  --black-10: #e6e6e6;
+  --white-0: #fff;
+
+  --color-primary: var(--black-darkest);
+  --color-secondary: var(--green);
+  --color-accent: var(--yellow);
+
+
+  --font-family: neue-haas-grotesk-text, sans-serif;
+  --font-family-alt: clarendon-text-pro, serif;
+  --font-family-display: cooper-black-std, serif;
+  --font-family-system: -apple-system, BlinkMacSystemFont, "helvetica neue",
+    helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  --font-family-mono: Menlo, Consolas, Monaco, "Liberation Mono",
+    "Lucida Console", monospace;
+
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  // Type scale major second
+  --text-scale-ratio: 1.125;
+
+  --font-size-xxxx-display: 4.624rem; //73px
+  --font-size-xxx-display: 4.11rem; //65px
+  --font-size-xx-display: 3.653rem; //58px
+  --font-size-x-display: 2.887rem; //46px
+  --font-size-display: 2.566rem; // 41px
+  --font-size-xxxx-large: 2.027rem; //36px;
+  --font-size-xxx-large: 1.802rem; //28px
+  --font-size-xx-large: 1.602rem; //25px
+  --font-size-x-large: 1.424rem; //22px
+  --font-size-large: 1.266rem; //20px
+  --font-size-medium: 1.125rem; //18px
+  --font-size: 1rem; //16px
+  --font-size-small: 0.889rem; // 14px
+  --font-size-x-small: 0.79rem; // 12px
+
+  // Line height
+  --line-height-text: 1.5; //150%
+  --line-height-display: 1.125; //112.5%
+  --line-height-alt: 1.25; //125%
+  --line-height: 1;
+
+  // Border radii
+
+  --border-radius-x-small: 0.25rem;
+  --border-radius-small: 0.5rem;
+  --border-radius-medium: 0.75rem;
+  --border-radius-large: 1rem;
+  --border-radius-circle: 50%;
+
+  // Border widths
+
+  --border-width-hairline: 1px;
+  --border-width-thin: 2px;
+  --border-width-thick: 5px;
+  --border-thin: var(--border-width-hairline) solid var(--black-50);
+  --border-thick: var(--border-width-thick) solid var(--black-20);
+
+  --border-thin-primary: var(--border-width-hairline) solid var(--ucla-blue);
+  --border-thick-primary: var(--border-width-thick) solid var(--ucla-blue);
+
+  // Spacing
+
+  --max-width: 90rem;
+  --min-width: 60rem;
+  --spacing-x-small: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing: 0.75rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+  --spacing-xx-small: 0.125rem;
+  --spacing-x-large: 2rem;
+  --spacing-xx-large: 3rem;
+
+  // Breakpoints relative to 16px base font
+  --bp-x-small: 18.75em; //300px
+  --bp-small: 30em; //480px
+  --bp-medium: 48em; // 768px;
+  --bp-large: 64em; // 1024px
+  --bp-x-large: 75em; // 1200px;
+  --bp-xx-large: 87.5rem; //1400px;
+}
