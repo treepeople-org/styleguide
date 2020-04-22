@@ -86,13 +86,23 @@
 		"oAP": "/favicon.ico",
 		"oF": 0
 		},
-	"/iconography/index.html": {
+	"/icons/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/iconography/index.html",
+		"oAP": "/icons/index.html",
 		"oF": 0
+		},
+	"/icons/office-file-pdf.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/icons/office-file-pdf.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/favicon-16x16.png": {
 		"ft": 32768,
@@ -362,6 +372,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/layouts/_type-sampler.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/layouts/_type-sampler.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -409,6 +432,14 @@
 		"oAP": "/site.webmanifest",
 		"oF": 0
 		},
+	"/sitemap/drupal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sitemap/drupal.html",
+		"oF": 0
+		},
 	"/typography/clarendon.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -431,22 +462,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/typography/elements.html",
-		"oF": 0
-		},
-	"/typography/libre-franklin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/typography/libre-franklin.html",
-		"oF": 0
-		},
-	"/typography/montserrat.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/typography/montserrat.html",
 		"oF": 0
 		},
 	"/typography/neue-hass-grotesk.html": {

@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en-US" id="type-sampler">
 
   <head>
     <meta charset="utf-8">
-    <title>Font Sampler – TreePeople</title>
+    <title>Clarendon Font Sampler</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
@@ -16,70 +16,22 @@
         --font-family: clarendon-text-pro, serif;
       }
 
-      main {
-        display: grid;
-        column-gap: 2vw;
-        grid-template-columns: 2fr 4fr;
-        grid-template-areas:
-          "type-face type-sheet"
-          "type-face type-sheet"
-          "type-scale type-scale";
-      }
-
-
-      .type-face {
-        grid-area: type-face;
-      
-      }
-
-      .type-face h1 {
-        font-size: calc(2 * var(--font-size-xxx-display));
-        
-        line-height: 1;
-        margin: 0;
-        padding: 0;
-       
-      }
-
-      .type-sheet {
-        grid-area: type-sheet;
-        font-size: var(--font-size-xx-display);
-        overflow-wrap: break-word;
-        max-width: 48rem;
-      }
-
-      .type-scale {
-        grid-area: type-scale;
-      }
-
-      
-
-      h2 ~ h2,
-      .type-scale h1 {
-        margin: 4em 0 1em 0;
-        border-bottom: 1px solid silver;
-      }
-
-
     </style>
   </head>
 
   <body>
     <header role="banner">
-      <h1><a href="../index.html">TreePeople</a></h1>
-      <h2>Coopers Black and Clarendon Text Pro</h2>
+      <h1><a href="../index.html">Tree<span>People</span></a></h1>
     </header>
 
-    <nav>
 
-    </nav>
 
     <main>
-      <header class="type-face">
-        <h1>Coopers Black </h2>
+      <header>
+        <h2>Clarendon</h2>
       </header>
 
-      <div class="type-sheet">
+      <section class="type-sheet">
       
         <h2>Regular 400</h2>
         <div class="regular" contenteditable="true">Aa Bb Cc Dd Ee Ff Gg
@@ -124,68 +76,51 @@
 
        
 
-      </div>
+      </section>
 
-      <div class="type-scale">
-        <h1>Type scale</h1>
+      <hr>
+
+      <section class="type-scale">
+        <h2>Type scale</h2>
         <p>This type scale is the major second with a ratio of 1.125</p>
 
-        <dl>
-          <dt style="font-size: var(--font-size-x-small);">Aa</dt>
-          <dd>--font-size-x-small</dd>
+        <ol class="type-scale-sample">
 
-          <dt style="font-size: var(-font-size-small);">Aa</dt>
-          <dd>--font-size-small</dd>
+          <li style="font-size: var(--font-size-xxxx-display);">Aa</li>
 
-          <dt style="font-size: var(--font-size);">Aa</dt>
-          <dd>--font-size</dd>
+          <li style="font-size: var(--font-size-xxx-display);">Aa</li>
 
-          <dt style="font-size: var(--font-size-medium);">Aa</dt>
-          <dd>--font-size-medium</dd>
+          <li style="font-size: var(--font-size-xx-display);">Aa</li>
 
-          <dt style="font-size: var(--font-size-large);">Aa</dt>
-          <dd>--font-size-large</dd>
+          <li style="font-size: var(--font-size-x-display);">Aa</li>
 
-          <dt style="font-size: var(--font-size-x-large);">Aa</dt>
-          <dd>--font-size-x-large</dd>
+          <li style="font-size: var(--font-size-display);">Aa</li>
 
-          <dt style="font-size: var(--font-size-xx-large);">Aa</dt>
-          <dd>--font-size-xx-large</dd>
+          <li style="font-size: var(--font-size-xxxx-large);">Aa</li>
 
-          <dt style="font-size: var(--font-size-xxx-large);">Aa</dt>
-          <dd>--font-size-xxx-large</dd>
+          <li style="font-size: var(--font-size-xxx-large);">Aa</li>
 
-          <dt style="font-size: var(--font-size-xxxx-large);">Aa</dt>
-          <dd>--font-size-xxxx-large</dd>
+          <li style="font-size: var(--font-size-xx-large);">Aa</li>
 
-          <dt style="font-size: var(--font-size-display);">Aa</dt>
-          <dd>--font-size-display</dd>
+          <li style="font-size: var(--font-size-x-large);">Aa</li>
 
-          <dt style="font-size: var(--font-size-x-display);">Aa</dt>
-          <dd>--font-size-x-display</dd>
+          <li style="font-size: var(--font-size-large);">Aa</li>
 
-          <dt style="font-size: var(--font-size-x-display);">Aa</dt>
-          <dd>--font-size-x-display</dd>
+          <li style="font-size: var(--font-size-medium);">Aa</li>
 
-          <dt style="font-size: var(--font-size-xx-display);">Aa</dt>
-          <dd>--font-size-xx-display</dd>
+          <li style="font-size: var(--font-size);">Aa</li>
 
-          <dt style="font-size: var(--font-size-xxx-display);">Aa</dt>
-          <dd>--font-size-xxx-display</dd>
+          <li style="font-size: var(-font-size-small);">Aa</li>
 
-          <dt style="font-size: var(--font-size-xxxx-display);">Aa</dt>
-          <dd>--font-size-xxxx-display</dd>
-        </dl>
-      </div>
+          <li style="font-size: var(--font-size-x-small);">Aa</li>
+
+
+        </ol>
+      </section>
 
     </main>
 
-    <aside>
-
-    </aside>
-    <footer>
-
-    </footer>
+    
   </body>
 
 </html>

@@ -6,9 +6,13 @@
 //   =====================================================
 
 
-header[role="banner"] a {
-  color: var(--green-darkest);
+header[role="banner"] h1 a {
+  color: var(--green-darker);
   text-decoration: none;
+}
+
+header[role="banner"] span {
+  color: var(--green-darkest);
 }
 
 article a {

@@ -1,0 +1,46 @@
+#type-sampler {
+
+  body {
+    display: grid;
+  }
+
+  header {
+    grid-row: 1;
+  }
+
+  main {
+    grid-row: 2;
+  }
+
+  .type-sheet {
+    font-size: var(--font-size-xxxx-display);
+  }
+
+  main h2,
+  .type-scale p {
+    font-family: var(--font-family-text);
+  }
+
+  .type-sheet h2,
+  .type-scale h2+p {
+    border-bottom: var(--border-thin);
+  }
+
+  .type-sheet h2 {
+    margin-top: var(--spacing-xx-large);
+  }
+
+  .type-scale h2 {
+    margin-bottom: 0;
+  }
+
+  .type-scale p {
+    margin-top: 0;
+  }
+
+  hr {
+    border-bottom: var(--border-thick);
+    margin: var(--spacing-x-large) 0 var(--spacing-xx-large) 0;
+  }
+
+}
