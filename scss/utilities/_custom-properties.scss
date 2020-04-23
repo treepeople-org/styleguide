@@ -1,97 +1,46 @@
 :root {
 
---orange-darkest: #f57f39;
---orange-darker: #f99a5e;
---orange: #fdb681;
---orange-lighter: #ffd1a3;
---orange-lightest: #ffebc4;
+  --orange-darkest: #491a00;
+  --orange-darker: #733d0d;
+  --orange: #9f6333;
+  --orange-lighter: #ce8c59;
+  --orange-lightest: #fdb681;
 
---yellow-darkest: #efcc33;
---yellow-darker: #f4d860;
---yellow: #f7e485;
---yellow-lighter: #fbf0a9;
---yellow-lightest: #fffccb;
+  --yellow-darkest: #efcc33;
+  --yellow-darker: #f4d860;
+  --yellow: #f7e485;
+  --yellow-lighter: #fbf0a9;
+  --yellow-lightest: #fffccb;
 
---green-darkest: #048f37;
---green-darker: #43a75a;
---green: #6ac07c;
---green-lighter: #8fd79d;
---green-lightest: #b2f0be;
+  --green-darkest: #002f00;
+  --green-darker: #005016;
+  --green: #167437;
+  --green-lighter: #439958;
+  --green-lightest: #6ac07c;
 
---white-darkest: #e7e2c2;
---white-darker: #ede9cf;
---white: #f2f0de;
---white-lighter: #f8f7ed;
---white-lightest: #fefefb;
+  --blue-darkest: #00255d;
+  --blue-darker: #003c79;
+  --blue: #005697;
+  --blue-lighter: #0071b5;
+  --blue-lightest: #008dd4;
 
---black-darkest: #060702;
---black-darker: #161809;
---black: #272912;
---black-lighter: #383a1b;
---black-lightest: #474b23;
+  --red-darkest: #640000;
+  --red-darker: #880011;
+  --red: #ad0d2a;
+  --red-lighter: #d33b45;
+  --red-lightest: #fa5f62;
 
-  /* Color Theme Swatches in Hex */
-  --Park-oak-tree-1: #84B4FC;
-  --Park-oak-tree-2: #E8DDD3;
-  --Park-oak-tree-3: #272915;
-  --Park-oak-tree-4: #A9B065;
-  --Park-oak-tree-5: #5C4C3B;
+  --white-darkest: #e7e2c2;
+  --white-darker: #ede9cf;
+  --white: #f2f0de;
+  --white-lighter: #f8f7ed;
+  --white-lightest: #fefefb;
 
-  /* Color Theme Swatches in RGBA */
-  --Park-oak-tree-rgba: rgba(132,180,252, 1);
-  --Park-oak-tree-2-rgba: rgba(232,221,211, 1);
-  --Park-oak-tree-3-rgba: rgba(39,41,21, 1);
-  --Park-oak-tree-4-rgba: rgba(169,176,101, 1);
-  --Park-oak-tree-5-rgba: rgba(92,76,59, 1);
-
-  /* Color Theme Swatches in HSLA */
-  --Park-oak-tree-1-hsla: hsla(216, 95, 75, 1);
-  --Park-oak-tree-2-hsla: hsla(28, 31, 86, 1);
-  --Park-oak-tree-3-hsla: hsla(66, 32, 12, 1);
-  --Park-oak-tree-4-hsla: hsla(65, 32, 54, 1);
-  --Park-oak-tree-5-hsla: hsla(30, 21, 29, 1);
-
-  /* Color Theme Swatches in Hex */
-  --California-Oak-Tree-1: #D2D904;
-  --California-Oak-Tree-2: #92B4AA;
-  --California-Oak-Tree-3: #594711;
-  --California-Oak-Tree-4: #3A322E;
-  --California-Oak-Tree-5: #F2F2F2;
-
-  /* Color Theme Swatches in RGBA */
-  --California-Oak-Tree-1-rgba: rgba(210,217,4, 1);
-  --California-Oak-Tree-2-rgba: rgba(146,180,170, 1);
-  --California-Oak-Tree-3-rgba: rgba(89,71,17, 1);
-  --California-Oak-Tree-4-rgba: rgba(58,50,46, 1);
-  --California-Oak-Tree-5-rgba: rgba(242,242,242, 1);
-
-  /* Color Theme Swatches in HSLA */
-  --California-Oak-Tree-1-hsla: hsla(61, 96, 43, 1);
-  --California-Oak-Tree-2-hsla: hsla(162, 18, 63, 1);
-  --California-Oak-Tree-3-hsla: hsla(45, 67, 20, 1);
-  --California-Oak-Tree-4-hsla: hsla(20, 11, 20, 1);
-  --California-Oak-Tree-5-hsla: hsla(0, 0, 94, 1);
-
-  /* Color Theme Swatches in Hex */
-  --Red-Wood-Tree-1: #F28B50;
-  --Red-Wood-Tree-2: #D95829;
-  --Red-Wood-Tree-3: #8C2711;
-  --Red-Wood-Tree-4: #591C0E;
-  --Red-Wood-Tree-5: #260F0A;
-
-  /* Color Theme Swatches in RGBA */
-  --Red-Wood-Tree-1-rgba: rgba(242,139,80, 1);
-  --Red-Wood-Tree-2-rgba: rgba(217,88,41, 1);
-  --Red-Wood-Tree-3-rgba: rgba(140,39,17, 1);
-  --Red-Wood-Tree-4-rgba: rgba(89,28,14, 1);
-  --Red-Wood-Tree-5-rgba: rgba(38,15,10, 1);
-
-  /* Color Theme Swatches in HSLA */
-  --Red-Wood-Tree-1-hsla: hsla(21, 86, 63, 1);
-  --Red-Wood-Tree-2-hsla: hsla(16, 69, 50, 1);
-  --Red-Wood-Tree-3-hsla: hsla(10, 78, 30, 1);
-  --Red-Wood-Tree-4-hsla: hsla(11, 72, 20, 1);
-  --Red-Wood-Tree-5-hsla: hsla(10, 58, 9, 1);
+  --black-darkest: #060702;
+  --black-darker: #161809;
+  --black: #272912;
+  --black-lighter: #383a1b;
+  --black-lightest: #474b23;
 
   --black-100: #000;
   --black-90: #1a1a1a;
