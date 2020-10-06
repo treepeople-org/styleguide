@@ -17,6 +17,17 @@
 		"oAP": "/.gitgnore",
 		"oF": 0
 		},
+	"/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 10661,
+		"oA": 0,
+		"oAP": "/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/blog/article.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -73,6 +84,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/css/styles.css.map",
+		"oF": 0
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
 		"oF": 0
 		},
 	"/icons/index.html": {
