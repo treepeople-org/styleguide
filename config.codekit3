@@ -19,7 +19,7 @@
 		},
 	"/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 9421,
+		"iS": 10661,
 		"oA": 0,
 		"oAP": "/apple-touch-icon.png",
 		"oF": 0,
@@ -394,17 +394,17 @@
 		"sct": 1
 		},
 	"/scss/styles.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/styles.css",
-		"oF": 2,
-		"oS": 3,
-		"sct": 1
+		"oAP": "/scss/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
 		},
 	"/scss/utilities/_a11y.scss": {
 		"aP": 0,
@@ -945,7 +945,7 @@
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -1021,7 +1021,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1769,7 +1769,7 @@
 			},
 		"no-void": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAsStatement': false}"
 			},
 		"no-warning-comments": {
 			"active": 0,
@@ -1985,7 +1985,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
+			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,
@@ -2539,7 +2539,7 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"compilerType": 1,
+		"compilerType": 0,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
 		"emitCharset": 1,
